@@ -407,12 +407,6 @@ export default async function LandingPage(): Promise<ReactElement> {
           </div>
         </section>
       </main>
-      <footer className="border-t border-zinc-800 py-6">
-        <div className="container text-center text-sm text-zinc-400">
-          &copy; {new Date().getFullYear()} Commet. Todos los derechos
-          reservados.
-        </div>
-      </footer>
     </div>
   );
 }
