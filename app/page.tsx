@@ -394,7 +394,7 @@ export default async function LandingPage(): Promise<ReactElement> {
               Si te interesa lo que lees y quieres ser parte de una startup en
               crecimiento, manda un mail a{" "}
               <strong className="text-white">guido@workspace.co</strong> con el
-              asunto "Quiero trabajar en Commet" contando tu experiencia
+              asunto &quot;Quiero trabajar en Commet&quot; contando tu experiencia
               (adjunta tu CV) y por qué quieres unirte a Commet.
             </p>
             <Link
