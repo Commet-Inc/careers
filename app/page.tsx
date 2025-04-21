@@ -398,7 +398,7 @@ export default async function LandingPage(): Promise<ReactElement> {
               (adjunta tu CV) y por qué quieres unirte a Commet.
             </p>
             <Link
-              href="mailto:guido@workspace.co?subject=Quiero%20trabajar%20en%20Commet"
+              href="mailto:guido@commet.co?subject=Quiero%20trabajar%20en%20Commet"
               className="inline-flex h-11 items-center justify-center rounded-md bg-white text-zinc-900 px-8 text-sm font-medium shadow transition-colors hover:bg-zinc-100 focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-zinc-400"
             >
               <Mail className="mr-2 h-4 w-4" />
