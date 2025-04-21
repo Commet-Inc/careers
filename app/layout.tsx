@@ -53,16 +53,6 @@ export default function RootLayout({
                   addressLocality: "Remote",
                 },
               },
-              baseSalary: {
-                "@type": "MonetaryAmount",
-                currency: "USD",
-                value: {
-                  "@type": "QuantitativeValue",
-                  minValue: 15000,
-                  maxValue: 18000,
-                  unitText: "YEAR",
-                },
-              },
               skills:
                 "React, Next.js, TypeScript, Server Actions, RSC, Node, SQL",
               jobBenefits:

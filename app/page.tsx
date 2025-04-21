@@ -5,7 +5,7 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 export const metadata: Metadata = {
-  title: "Founder Developer en Commet | 15-18K USD al año + Stock Options",
+  title: "Founder Developer en Commet | Stock Options",
   description:
     "Únete a Commet como Founder Developer. Buscamos un desarrollador con experiencia en React, Next.js y TypeScript para construir una solución B2B SaaS que simplifica el cálculo y pago de comisiones.",
   keywords: [
@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     title:
       "Founder Developer en Commet | Oportunidad única para desarrolladores",
     description:
-      "15-18K USD al año + Stock Options. Trabaja con las últimas tecnologías (React 19, Next.js 15, TypeScript) en una startup B2B SaaS en crecimiento con vacaciones ilimitadas y home office.",
+      "Trabaja con las últimas tecnologías (React 19, Next.js 15, TypeScript) en una startup B2B SaaS en crecimiento con vacaciones ilimitadas y home office.",
     url: "https://careers.commet.co",
     siteName: "Commet Careers",
     locale: "es_ES",
@@ -33,10 +33,10 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Founder Developer en Commet | 15-18K USD al año + Stock Options",
+    title: "Founder Developer en Commet | Stock Options",
     description:
       "Únete a una startup B2B SaaS en crecimiento. Trabaja con React 19, Next.js 15, TypeScript. Home office y vacaciones ilimitadas.",
-    creator: "@workspace_co",
+    creator: "@0xDecker",
   },
   alternates: {
     canonical: "https://careers.commet.co",
@@ -251,7 +251,8 @@ export default async function LandingPage(): Promise<ReactElement> {
               <li className="flex gap-2">
                 <span className="text-white font-bold">→</span>
                 <span className="text-zinc-300">
-                  Rango Salarial 15k - 18k al año + Stock Options
+                  Stock Options: tendrás la oportunidad de ser parte del éxito
+                  de Commet y crecer junto con nosotros.
                 </span>
               </li>
               <li className="flex gap-2">
@@ -266,13 +267,6 @@ export default async function LandingPage(): Promise<ReactElement> {
                 <span className="text-zinc-300">
                   Macbook para que puedas trabajar (además después de 3 años es
                   tuya).
-                </span>
-              </li>
-              <li className="flex gap-2">
-                <span className="text-white font-bold">→</span>
-                <span className="text-zinc-300">
-                  Stock Options: tendrás la oportunidad de ser parte del éxito
-                  de Commet y crecer junto con nosotros.
                 </span>
               </li>
               <li className="flex gap-2">
@@ -393,7 +387,7 @@ export default async function LandingPage(): Promise<ReactElement> {
             <p className="mb-8 text-zinc-300">
               Si te interesa lo que lees y quieres ser parte de una startup en
               crecimiento, manda un mail a{" "}
-              <strong className="text-white">guido@workspace.co</strong> con el
+              <strong className="text-white">guido@commet.co</strong> con el
               asunto &quot;Quiero trabajar en Commet&quot; contando tu experiencia
               (adjunta tu CV) y por qué quieres unirte a Commet.
             </p>

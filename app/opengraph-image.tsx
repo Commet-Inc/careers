@@ -61,7 +61,7 @@ export default async function Image() {
           fontWeight: "bold",
         }}
       >
-        15-18K USD al año + Stock Options
+        Stock Options
       </div>
     </div>,
     {
